@@ -379,7 +379,7 @@ string[] source_solutions = new string[]
     "./source/Xamarin.Auth-Library.sln",
     "./source/Xamarin.Auth-Library-VS4Mac.sln",
     //"./source/Xamarin.Auth-Library-VS2015.sln",
-    "./source/Xamarin.Auth-Library-VS4W-2017.sln",
+   // "./source/Xamarin.Auth-Library-VS4W-2017.sln",
 };
 
 string[] solutions_for_nuget_tests = new string[]
@@ -1931,6 +1931,8 @@ Task ("nuget")
     (
         () =>
         {
+             if ( IsRunningOnWindows() )
+            {
             string platform = null;
             string msg =
                 "Missing Windows dll artifacts"
@@ -1978,6 +1980,7 @@ Task ("nuget")
             )
             {
                 throw new System.ArgumentNullException(msg + $"platform = {platform}");
+            }
             }
 
             NuGetPack
