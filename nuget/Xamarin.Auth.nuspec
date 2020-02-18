@@ -281,7 +281,7 @@
             │   ├── Xamarin.Auth.pdb
             │   └── Xamarin.Auth.pri
         -->
-        <file
+        <!-- <file
             src="..\source\Core\Xamarin.Auth.UniversalWindowsPlatform\bin\Release\Xamarin.Auth.dll"
             target="lib/uap10.0/Xamarin.Auth.dll"
             >
@@ -295,7 +295,7 @@
             src="..\source\Core\Xamarin.Auth.UniversalWindowsPlatform\bin\Release\Xamarin.Auth.pri"
             target="lib/uap10.0/Xamarin.Auth.pri"
             >
-        </file>
+        </file> -->
         <!--
         mc++ 2017-10-17 output changed??
         <file
@@ -304,7 +304,7 @@
             >
         </file>
         -->		
-        <file
+        <!-- <file
             src="..\source\Core\Xamarin.Auth.UniversalWindowsPlatform\bin\Release\WebAuthenticatorPage.xbf"
             target="lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xbf"
             >
@@ -313,7 +313,7 @@
             src="..\source\Core\Xamarin.Auth.UniversalWindowsPlatform\bin\Release\Xamarin.Auth.xr.xml"
             target="lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml"
             >
-        </file>
+        </file> -->
 
     </files>
 </package>

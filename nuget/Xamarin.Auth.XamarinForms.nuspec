@@ -248,7 +248,7 @@
 			│   ├── Xamarin.Auth.XamarinForms.pdb
 			│   └── Xamarin.Auth.XamarinForms.pri
 		-->
-		<file
+		<!-- <file
 			src="..\source\XamarinForms\Xamarin.Auth.Forms.UniversalWindowsPlatform\bin\Release\Xamarin.Auth.XamarinForms.dll"
 			target="lib/uap10.0/Xamarin.Auth.XamarinForms.dll"
 			>
@@ -262,7 +262,7 @@
 			src="..\source\XamarinForms\Xamarin.Auth.Forms.UniversalWindowsPlatform\bin\Release\Xamarin.Auth.XamarinForms.pri"
 			target="lib/uap10.0/Xamarin.Auth.XamarinForms.pri"
 			>
-		</file>
+		</file> -->
 		<!--
 		<file
 			src="..\source\XamarinForms\Xamarin.Auth.Forms.UniversalWindowsPlatform\bin\Release\WebAuthenticatorPage.xaml"
